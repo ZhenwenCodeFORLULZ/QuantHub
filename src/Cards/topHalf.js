@@ -1,23 +1,27 @@
 import React, {Component} from 'react';
-
+import "../Styles/topHalf.css";
 class TopHalfrender extends Component{
     render()
     {
       return(
-      <div>
-      
-          <h1>QuantHub</h1>
-          <button onClick ={redirect_Team}> 
-          The Team
-          </button>
-          <button onClick = {redirect_About}>
-          About
-          </button>
-          <h2>CRAZY BETS CRAZY REWARDS MADE EFFORTLESS</h2>
+      <div className = "topHalf">
+        <div className = "Title">
+          <h1>QuantHub </h1>
+        
+              <button className = "button-2" onClick ={redirect_Team}> 
+                The Team
+              </button>
+              <button className = "button-1"onClick = {redirect_About}>
+                About
+              </button>
+    
+        </div>
+
+        <h2>CRAZY BETS CRAZY REWARDS MADE EFFORTLESS</h2>
           <p> Make bets on everything and anything. QuantHub offers
               alternative strategies, wacky bets, and superior returns.
               Let your money 100x for you!!!
-          </p>
+          </p>      
 
           <div>
           <form>
