@@ -1,0 +1,27 @@
+.Esports_Strategy_Area{
+    background-color:rgb(211, 238, 213);
+    box-sizing: border-box;
+    border-radius:20px;
+    margin:5%
+    
+    
+    
+}
+.Title{
+    text-align: center;
+}   
+.TitleStats{
+    text-align:center;
+}
+.Strategy{
+    text-align:center;
+}
+.Weakness{
+    text-align:center;
+}
+.Stats{
+    display: grid;
+    background-color:rgba(230, 225, 225, 0.8);
+    grid-template-columns:repeat(2, 1fr);
+
+}
