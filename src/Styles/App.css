@@ -1,0 +1,13 @@
+.Alt-Strategies{
+    display: flex;
+    grid-template-columns:repeat(3,25%);
+}
+.Stock-Focused-Strategies{
+    display: flex;
+    grid-template-columns:repeat(3,25%);
+    
+}
+.Cryptocurrency-Strategies{
+    display: flex;
+    grid-template-columns:repeat(3,25%);
+}

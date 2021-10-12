@@ -1,0 +1,78 @@
+#text-color-snow-white{
+    color: #fffafa;
+}
+
+#text-color-dark-grey{
+    color: #333333;
+}
+
+.the-team-container{
+    background-color: #ffd3e1;
+}
+
+.the-team-title{
+    text-align: center;
+    color: #333333;
+}
+
+.the-team-face-cards{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.face-card{
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: 0.5rem;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    transition: 1s;
+}
+.face-card:hover{
+    transform: scale(1.1);
+}
+
+.face-card-photo{
+    width: 350px;
+    height: auto;
+    cursor: pointer;
+}
+
+.face-card-description{
+    color: white;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 70%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%;
+    background-color:rgba(14, 36, 49, 0.65);
+    padding-left: 70px;
+    padding-right: 70px;
+    cursor: pointer;
+}
+
+.the-team-biography{
+    margin: 30px;
+    margin-top: 60px;
+}
+
+.personal-biography{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 50px;
+}
+.personal-biography img{
+    width: 200px;
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+}
+
