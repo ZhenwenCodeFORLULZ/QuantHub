@@ -7,7 +7,8 @@
 }
 
 .the-team-container{
-    background-color: #ffd3e1;
+    background-color: #87ceeb;
+
 }
 
 .the-team-title{
@@ -60,7 +61,8 @@
 }
 
 .the-team-biography{
-    margin: 30px;
+    margin-left: 80px;
+    margin-right:80px;
     margin-top: 60px;
 }
 

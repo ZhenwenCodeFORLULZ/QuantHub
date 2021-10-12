@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import "./Styles/App.css";
-// import TopHalfrender from './Cards/topHalf.js';
-// import DateStrategy from './Cards/datesCard.js';
-// import StudentLoansStrategy from './Cards/studentLoans.js';
-// import Esports_Strategy from './Cards/esports.js';
+import TopHalfrender from './Cards/topHalf.js';
+import DateStrategy from './Cards/datesCard.js';
+import StudentLoansStrategy from './Cards/studentLoans.js';
+import Esports_Strategy from './Cards/esports.js';
 import TheTeamRender from './Pages/theTeam.js';
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
       <div>
         <TheTeamRender />
 
-        {/* <div className="topHalf" >
+        <div className="topHalf" >
           <TopHalfrender />
         </div>
 
@@ -57,7 +57,7 @@ class App extends Component {
           <div className="esports">
             <Esports_Strategy />
           </div>
-        </div> */}
+        </div> 
       </div>
 
 
