@@ -1,13 +1,23 @@
 .Alt-Strategies{
-    display: flex;
-    grid-template-columns:repeat(3,25%);
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap: 25px;
+    justify-items: center;
 }
 .Stock-Focused-Strategies{
-    display: flex;
-    grid-template-columns:repeat(3,25%);
-    
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap: 25px;
+    justify-items: center;
 }
 .Cryptocurrency-Strategies{
-    display: flex;
-    grid-template-columns:repeat(3,25%);
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap: 25px;
+    justify-items: center;
+}
+
+.bottomHalf{
+    margin-left: 15px;
+    margin-right: 15px;
 }

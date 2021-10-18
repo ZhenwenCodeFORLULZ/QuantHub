@@ -29,37 +29,35 @@ class App extends Component {
             <div className="esports">
               <Esports_Strategy />
             </div>
+          </div>
 
+          <h1>Stock Focused</h1>
+          <div className="Stock-Focused-Strategies">
+            <div className="datesCard">
+              <DateStrategy />
+            </div>
+            <div className="leverageStudentLoans">
+              <StudentLoansStrategy />
+            </div>
+            <div className="esports">
+              <Esports_Strategy />
+            </div>
+          </div>
+
+          <h1>Cryptocurrency</h1>
+          <div className="Cryptocurrency-Strategies">
+            <div className="datesCard">
+              <DateStrategy />
+            </div>
+            <div className="leverageStudentLoans">
+              <StudentLoansStrategy />
+            </div>
+            <div className="esports">
+              <Esports_Strategy />
+            </div>
           </div>
         </div>
-
-        <h1>Stock Focused</h1>
-        <div className="Stock-Focused-Strategies">
-          <div className="datesCard">
-            <DateStrategy />
-          </div>
-          <div className="leverageStudentLoans">
-            <StudentLoansStrategy />
-          </div>
-          <div className="esports">
-            <Esports_Strategy />
-          </div>
-        </div>
-
-        <h1>Cryptocurrency</h1>
-        <div className="Cryptocurrency-Strategies">
-          <div className="datesCard">
-            <DateStrategy />
-          </div>
-          <div className="leverageStudentLoans">
-            <StudentLoansStrategy />
-          </div>
-          <div className="esports">
-            <Esports_Strategy />
-          </div>
-        </div> 
       </div>
-
 
     );
   }

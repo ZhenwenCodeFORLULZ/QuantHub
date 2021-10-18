@@ -1,9 +1,30 @@
+/* In General Across Entire Page */
+.card-buttons{
+    margin-right: 15px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    background-color: #87ceeb;
+    border-radius: 0.5rem;
+    border: none;
+}
+.card-buttons:hover {
+    box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+}
+.more-info-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .DateStrategyArea{
     background-color:rgb(211, 238, 213);
     box-sizing: border-box;
     border-radius:20px;
-    margin:5%
-    
+    margin:5%;
+    padding: 5%;
+    width: 425px;
 }
 .Title{
     text-align: center;
@@ -21,6 +42,12 @@
     display: grid;
     background-color:rgba(230, 225, 225, 0.8);
     grid-template-columns:repeat(2, 1fr);
-
+    row-gap: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+
 

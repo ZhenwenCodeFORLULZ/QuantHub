@@ -5,7 +5,10 @@
     color: white;
     font-weight: bold;
     font-size: medium;
-    background-color: #ffd3e1;
+    /* background-color: #ffd3e1; */
+    background-color: #ffe2e6;
+    /* background-color: #ffe9ec; */
+    /* background-color: #fff0f3; */
     border-radius: 0.5rem;
     border: none;
 }
@@ -68,14 +71,13 @@
 }
 
 .home-blurb-title{
-    font-size: xx-large;
+    font-size: 50px;
 }
 
 .home-blurb-paragraph{
-    color: #ffd3e1;
+    color: #87ceeb;
     font-size: large;
     font-weight: 700;
-    padding-top: 25px;
 }
 
 .home-blurb-sign-up-form{
@@ -85,6 +87,7 @@
 
 .home-blurb-email-entry-box{
     margin-right: 15px;
+    border-color: #87ceeb;
 }
 
 .email{

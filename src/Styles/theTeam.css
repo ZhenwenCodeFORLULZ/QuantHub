@@ -8,15 +8,23 @@
 
 .the-team-container{
     background-color: #87ceeb;
-
 }
 
 .the-team-title{
     text-align: center;
-    color: #333333;
+    color: #fffafa;
+}
+
+.alignment-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    ". a ."
+    ". b .";
 }
 
 .the-team-face-cards{
+    grid-area: a;
     display: flex;
     justify-content: center;
     column-gap: 25px;
@@ -61,9 +69,12 @@
 }
 
 .the-team-biography{
+    grid-area: b;
     margin-left: 80px;
     margin-right:80px;
     margin-top: 60px;
+    padding-bottom: 50px;
+    
 }
 
 .personal-biography{
