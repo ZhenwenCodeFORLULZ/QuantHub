@@ -3,9 +3,9 @@ import HeaderRender from '../SharedComponents/header';
 import "../Styles/topHalf.css";
 import "../Styles/theTeam.css";
 // Photos imported
-import Maximus_Fang_Photo from "../photos/IMG_4319.jpg";
-import Maximus_Fang_Photo1 from "../photos/IMG_4322.jpg";
-import Paul_Roth_Photo from "../photos/IMG_2847.jpg";
+import Maximus_Fang_Photo from "../photos/IMG_4319.JPG";
+import Maximus_Fang_Photo1 from "../photos/IMG_4322.JPG";
+import Paul_Roth_Photo from "../photos/IMG_2847.JPG";
 import Brother_MoshiMoshi_Photo from "../photos/brother_moshi_moshi_profile_pic.jpg";
 
 class TheTeamRender extends Component {
