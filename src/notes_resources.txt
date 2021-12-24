@@ -1,0 +1,6 @@
+https://www.w3schools.com/howto/howto_css_dropdown.asp
+
+//new react-router-dom v6
+//new syntax MUST READ
+    https://reactrouter.com/docs/en/v6/upgrading/v5
+    https://stackoverflow.com/questions/64943628/react-bootstrap-navbar-with-react-router

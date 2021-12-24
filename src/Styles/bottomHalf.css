@@ -1,0 +1,48 @@
+.strategies-container h2 {
+  font-size: xx-large;
+}
+.strategies-container {
+  padding-top: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.Alt-Strategies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 25px;
+  justify-items: center;
+}
+.Stock-Focused-Strategies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 25px;
+  justify-items: center;
+}
+.Cryptocurrency-Strategies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 25px;
+  justify-items: center;
+}
+@media screen and (max-width: 1450px) {
+  .Alt-Strategies {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Stock-Focused-Strategies {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Cryptocurrency-Strategies {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 945px) {
+  .Alt-Strategies {
+    grid-template-columns: 1fr;
+  }
+  .Stock-Focused-Strategies {
+    grid-template-columns: 1fr;
+  }
+  .Cryptocurrency-Strategies {
+    grid-template-columns: 1fr;
+  }
+}

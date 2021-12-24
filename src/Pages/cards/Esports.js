@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import '../Styles/studentLoans.css';
+import '../../styles/esports.css';
 
-class StudentLoansStrategy extends Component {
+class Esports_Strategy extends Component {
     render() {
         return (
-            <div class="Student_Loans_Strategy_Area">
-                <h1 class="Title"> Leveraged Student Loans </h1>
+            <div class="Esports_Strategy_Area">
+                <h1 class="Title"> Esports Betting Strategy</h1>
                 <h2 class="TitleStats">Stats</h2>
 
                 <div class="Stats">
@@ -32,6 +32,7 @@ class StudentLoansStrategy extends Component {
                 <div className="more-info-button">
                     <button className="card-buttons">Click For More Information</button>
                 </div>
+
             </div>);
 
 
@@ -42,4 +43,4 @@ class StudentLoansStrategy extends Component {
 
 
 
-export default StudentLoansStrategy;
+export default Esports_Strategy;

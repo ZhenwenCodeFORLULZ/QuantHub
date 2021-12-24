@@ -1,0 +1,20 @@
+/* Buttons Syles START*/
+.buttons {
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  /* background-color: #ffd3e1; */
+  background-color: #ffe2e6;
+  /* background-color: #ffe9ec; */
+  /* background-color: #fff0f3; */
+  border-radius: 0.5rem;
+  border: 2px solid #ffe2e6;
+}
+.buttons:hover {
+  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+  color: #ffe2e6;
+  background-color: white;
+  zoom: 105%;
+}
+/* Buttons Syles END*/

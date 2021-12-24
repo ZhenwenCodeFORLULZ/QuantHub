@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import '../Styles/esports.css';
+import '../../styles/datesCardStyle.css';
 
-class Esports_Strategy extends Component {
+
+class DateStrategy extends Component {
     render() {
         return (
-            <div class="Esports_Strategy_Area">
-                <h1 class="Title"> Esports Betting Strategy</h1>
+            <div class="DateStrategyArea">
+                <h1 class="Title"> Swaps for Dating Market</h1>
                 <h2 class="TitleStats">Stats</h2>
 
                 <div class="Stats">
@@ -43,4 +44,4 @@ class Esports_Strategy extends Component {
 
 
 
-export default Esports_Strategy;
+export default DateStrategy;

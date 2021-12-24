@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import '../Styles/datesCardStyle.css';
+import '../../styles/studentLoans.css';
 
-
-class DateStrategy extends Component {
+class StudentLoansStrategy extends Component {
     render() {
         return (
-            <div class="DateStrategyArea">
-                <h1 class="Title"> Swaps for Dating Market</h1>
+            <div class="Student_Loans_Strategy_Area">
+                <h1 class="Title"> Leveraged Student Loans </h1>
                 <h2 class="TitleStats">Stats</h2>
 
                 <div class="Stats">
@@ -33,7 +32,6 @@ class DateStrategy extends Component {
                 <div className="more-info-button">
                     <button className="card-buttons">Click For More Information</button>
                 </div>
-
             </div>);
 
 
@@ -44,4 +42,4 @@ class DateStrategy extends Component {
 
 
 
-export default DateStrategy;
+export default StudentLoansStrategy;

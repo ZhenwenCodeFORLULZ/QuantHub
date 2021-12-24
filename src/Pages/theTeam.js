@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import HeaderRender from '../SharedComponents/header';
-import "../Styles/topHalf.css";
-import "../Styles/theTeam.css";
+import "../styles/topHalf.css";
+import "../styles/theTeam.css";
 // Photos imported
 import Maximus_Fang_Photo from "../photos/IMG_4319.JPG";
 import Maximus_Fang_Photo1 from "../photos/IMG_4322.JPG";
@@ -12,19 +11,20 @@ class TheTeamRender extends Component {
     render() {
         return (
             <div className="the-team-container">
-                {/* Header Component */}
-                <HeaderRender />
 
                 <h1 className="the-team-title">MEET THE TEAM</h1>
 
                 <div className="alignment-div">
                     <div className="the-team-face-cards">
                         <div className="face-card" id="CEO-card">
-                            <img
-                                src={Maximus_Fang_Photo}
-                                className="face-card-photo"
-                                alt="Maximus Fang's Forbes Cover depicts his visionary expansion in the Middle East to find alpha."
-                            />
+                            <a href="#maximus-fang-bio">
+                                <img
+                                    src={Maximus_Fang_Photo}
+                                    className="face-card-photo"
+                                    alt="Maximus Fang's Forbes Cover depicts his visionary expansion in the Middle East to find alpha."
+                                />
+                            </a>
+
                             <div className="face-card-description">
                                 <h2 >Maximus Fang</h2>
                                 <h3>CEO, Founder, Visionary</h3>
@@ -32,11 +32,14 @@ class TheTeamRender extends Component {
                         </div>
 
                         <div className="face-card" id="lead-quant-card">
-                            <img
-                                src={Paul_Roth_Photo}
-                                className="face-card-photo"
-                                alt="Paul Roth's linkedin pose shows us that he is capable of doing anything at wall street"
-                            />
+                            <a href="#paul-roth-bio">
+                                <img
+                                    src={Paul_Roth_Photo}
+                                    className="face-card-photo"
+                                    alt="Paul Roth's linkedin pose shows us that he is capable of doing anything at wall street"
+                                />
+                            </a>
+
                             <div className="face-card-description">
                                 <h2>Paul Roth</h2>
                                 <h3>Lead Quantitative Researcher </h3>
@@ -44,11 +47,14 @@ class TheTeamRender extends Component {
                         </div>
 
                         <div className="face-card" id="client-relations-card">
-                            <img
-                                src={Brother_MoshiMoshi_Photo}
-                                className="face-card-photo"
-                                alt="Brother Moshi Moshi envisions something beautiful and prosperous to come at Quanthub."
-                            />
+                            <a href="#brother-moshi-moshi-bio">
+                                <img
+                                    src={Brother_MoshiMoshi_Photo}
+                                    className="face-card-photo"
+                                    alt="Brother Moshi Moshi envisions something beautiful and prosperous to come at Quanthub."
+                                />
+                            </a>
+
                             <div className="face-card-description">
                                 <h2>Brother Moshi Moshi</h2>
                                 <h3>Client Relation</h3>
@@ -57,7 +63,7 @@ class TheTeamRender extends Component {
                     </div>
 
                     <section className="the-team-biography">
-                        <div className="personal-biography">
+                        <div className="personal-biography" id="maximus-fang-bio">
                             <img
                                 src={Maximus_Fang_Photo1}
                                 alt="Maximus Fang's Forbes Cover depicts his visionary expansion in the Middle East to find alpha."
@@ -71,7 +77,7 @@ class TheTeamRender extends Component {
                             </div>
                         </div>
 
-                        <div className="personal-biography">
+                        <div className="personal-biography" id="paul-roth-bio">
                             <div>
                                 <h2>Paul Roth</h2>
                                 <h3>Role: Lead Quantitative Researcher</h3>
@@ -90,7 +96,7 @@ class TheTeamRender extends Component {
                             />
                         </div>
 
-                        <div className="personal-biography">
+                        <div className="personal-biography" id="brother-moshi-moshi-bio">
                             <img
                                 src={Brother_MoshiMoshi_Photo}
                                 alt="Brother Moshi Moshi envisions something beautiful and prosperous to come at Quanthub."
